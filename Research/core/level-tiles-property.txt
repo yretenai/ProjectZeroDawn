@@ -1,0 +1,21 @@
+
+File Type = 0x58834E044E7D8AA2
+
+Decima::level_tiles_property {
+  hashed_string name;
+  int32 tag_count;
+  hashed_string[tag_count] tags;
+  int32 reference_count;
+  file_reference<T>[reference_count] references;
+  int32 work_reference_count;
+  file_reference<T>[work_reference_count] work_references;
+  file_reference<collection> collection;
+  int32 tile_size;
+  int32 unknown1;
+  int32 unknown2;
+  int32 unknown3;
+  int32 tile_count;
+  file_reference<T>[tile_count] tiles;
+  int32 unknown4;
+  int32 unknown5;
+}

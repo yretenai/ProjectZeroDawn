@@ -1,0 +1,6 @@
+
+Decima::core_file {
+    uint64 file_type;         // see file-types.txt
+    int32 data_size;          // size of file without core header.
+    [optional] int32 unknown; // sometimes present, check filetype
+}

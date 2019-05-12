@@ -1,0 +1,13 @@
+
+File Type = 0x3C044275D70A124B
+
+Decima::level_property {
+  hashed_string name;
+  int32 tag_count;
+  hashed_string[tag_count] tags;
+  int32 reference_count;
+  file_reference<T>[reference_count] references;
+  int32 work_reference_count;
+  file_reference<T>[work_reference_count] work_references;
+  file_reference<collection> collection;
+}

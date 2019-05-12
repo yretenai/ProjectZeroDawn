@@ -1,0 +1,11 @@
+
+File Type = 0xF34A76FAD0A1E0D7
+
+Decima::prefetch {
+  int32 name_count;
+  hashed_string[name_count] names;
+  int32 size_count;
+  int32[size_count] sizes;
+  int32 index_count;
+  int32[index_count] indices;
+}

@@ -1,0 +1,6 @@
+
+Decima::hashed_string {
+  int32 size;
+  int32 hash;
+  string text;
+}

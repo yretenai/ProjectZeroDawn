@@ -1,0 +1,5 @@
+
+Decima::unhashed_string {
+  int32 size;
+  string text;
+}

@@ -1,0 +1,8 @@
+
+File Type = 0x403AEDA2FF627F90
+
+Decima::game_property {
+  hashed_string name;
+  int32 link_count;
+  file_reference<game_world>[link_count] links;
+}

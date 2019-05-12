@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroDawn", "Source/ZeroDawn.csproj", "{0BFA21D9-EE65-4BF7-8E28-29C9B321E0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroDawn.Tool.LibraryTest", "Tool\ZeroDawn.Tool.LibraryTest\ZeroDawn.Tool.LibraryTest.csproj", "{D0E16BFE-03E1-4332-9C7A-FBA14C1748EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{056FB2DB-1180-4352-960F-59AD922A3434}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendor", "Vendor", "{BFF4E824-9F3A-48E9-BE9D-14374A286BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLIF", "Vendor\CLIF\CLIF.csproj", "{CCAB71A7-C820-40E3-AF42-4E2D8FA137B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BFA21D9-EE65-4BF7-8E28-29C9B321E0B4}.Release|x64.ActiveCfg = Release|x64
+		{0BFA21D9-EE65-4BF7-8E28-29C9B321E0B4}.Release|x64.Build.0 = Release|x64
+		{0BFA21D9-EE65-4BF7-8E28-29C9B321E0B4}.Debug|x64.ActiveCfg = Debug|x64
+		{0BFA21D9-EE65-4BF7-8E28-29C9B321E0B4}.Debug|x64.Build.0 = Debug|x64
+		{D0E16BFE-03E1-4332-9C7A-FBA14C1748EF}.Release|x64.ActiveCfg = Release|x64
+		{D0E16BFE-03E1-4332-9C7A-FBA14C1748EF}.Release|x64.Build.0 = Release|x64
+		{D0E16BFE-03E1-4332-9C7A-FBA14C1748EF}.Debug|x64.ActiveCfg = Debug|x64
+		{D0E16BFE-03E1-4332-9C7A-FBA14C1748EF}.Debug|x64.Build.0 = Debug|x64
+		{CCAB71A7-C820-40E3-AF42-4E2D8FA137B8}.Release|x64.ActiveCfg = Release|Any CPU
+		{CCAB71A7-C820-40E3-AF42-4E2D8FA137B8}.Release|x64.Build.0 = Release|Any CPU
+		{CCAB71A7-C820-40E3-AF42-4E2D8FA137B8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CCAB71A7-C820-40E3-AF42-4E2D8FA137B8}.Debug|x64.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0E16BFE-03E1-4332-9C7A-FBA14C1748EF} = {056FB2DB-1180-4352-960F-59AD922A3434}
+		{CCAB71A7-C820-40E3-AF42-4E2D8FA137B8} = {BFF4E824-9F3A-48E9-BE9D-14374A286BC4}
+	EndGlobalSection
+EndGlobal

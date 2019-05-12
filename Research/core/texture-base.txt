@@ -1,0 +1,21 @@
+
+Decima::texture_base {
+  int16 unknown1;
+  uint16 width;
+  uint16 height;
+  int16 unknown2;
+  byte total_mips;
+  pixel_format format;
+  int16 unknown4;
+  byte unknown5;
+  int16 unknown6;
+  core_load_method method;
+  guid checksum;
+  int32 buffer_size;
+  int32 total_data_size;
+  int32 embedded_image_size;
+  int32 streamed_image_size;
+  int32 streamed_mips;
+  byte[embedded_image_size] image_data;
+  [optional] stream_info stream_data; // only when streamed_mips is not 0
+}

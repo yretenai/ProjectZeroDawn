@@ -1,0 +1,5 @@
+
+Decima::drawable_map_tile_row {
+  int32 entry_count;
+  drawable_map_tile_set[entry_count] entries;
+}

@@ -1,0 +1,31 @@
+
+File Type = 0xE7058BFB9ACA35FC
+
+Decima::drawable_map_tiles {
+  file_reference<T> ui_effect_resource;
+  file_reference<T> ui_effect_resource2x;
+  file_reference<texture> default_background;
+  file_reference<texture> default_background2x;
+  int32 unknown1;
+  int32 pos_y;
+  int32 pos_x;
+  int32 unknown2;
+  int32 unknown3;
+  int32 neg_y;
+  int32 neg_x;
+  int32 unknown4;
+  int32 row_count;
+  drawable_map_tile_row[row_count] rows;
+  file_reference<texture> clouds;
+  file_reference<texture> vignette;
+  file_reference<texture> map_border;
+  file_reference<texture> world_zoom;
+  file_reference<T> unknown5;
+  int32 unknown6;
+  byte[1003] unknown7;
+  single unknown8;
+  file_reference<T> projection_settings;
+  int32 map_border_resource_count;
+  file_reference<T>[map_border_resource_count] map_border_resources;
+  file_reference<T> map_settings;
+}

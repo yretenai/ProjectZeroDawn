@@ -1,0 +1,19 @@
+
+File Type = 0x921397E07300755A
+
+Decima::level_fact_property {
+  hashed_string name;
+  int32 tag_count;
+  hashed_string[tag_count] tags;
+  int32 reference_count;
+  file_reference<T>[reference_count] references;
+  int32 work_reference_count;
+  file_reference<T>[work_reference_count] work_references;
+  file_reference<collection> collection;
+  file_reference<T> triggers;
+  file_reference<T> resource;
+  byte unknown;
+  file_reference<T> facts1;
+  file_reference<T> facts2;
+  file_reference<T> facts3;
+}

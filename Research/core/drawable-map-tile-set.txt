@@ -1,0 +1,5 @@
+
+Decima::drawable_map_tile_set {
+  file_reference<texture> color;
+  file_reference<texture> height;
+}

@@ -1,0 +1,12 @@
+
+File Type = 0x8EE8B64CC2B58D30
+
+Decima::game_world {
+  hashed_string name;
+  int32 unknown1;
+  single unknown2;
+  int32 unknown3;
+  int32 unknown4;
+  single[12] matrix;
+  file_reference<level_data> level_data;
+}

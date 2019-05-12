@@ -1,0 +1,3 @@
+[submodule "Vendor/CLIF"]
+	path = Vendor/CLIF
+	url = https://github.com/healingbrew/CLIF.git

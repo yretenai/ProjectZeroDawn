@@ -1,0 +1,12 @@
+
+File Type = 0x9C78E9FDC6042A60
+
+Decima::texture_2x {
+  hashed_string name1;
+  hashed_string name2;
+  int32 width;
+  int32 height;
+  int32 image_size1;
+  int32 image_size2;
+  texture_base[texture_count] texture_data; // texture_count = 2 if image_size2 > 0 else 1
+}

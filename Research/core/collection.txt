@@ -1,0 +1,7 @@
+
+File Type = 0xA97082C73B2BC4BB
+
+Decima::collection {
+  int32 entry_count;
+  file_reference<T>[entry_count] entry_refs_original;
+}

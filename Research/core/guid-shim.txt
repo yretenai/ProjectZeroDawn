@@ -1,0 +1,14 @@
+
+Decima::guid_shim {
+  int32 a;
+  int16 b;
+  int16 c;
+  byte d;
+  byte e;
+  byte f;
+  byte g;
+  byte h;
+  byte i;
+  byte j;
+  byte k;
+}

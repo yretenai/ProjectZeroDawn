@@ -1,0 +1,14 @@
+
+File Type = 0x70540C4A1D6A2F97
+
+Decima::level_data {
+  file_reference<T> copy_area_info;
+  file_reference<T> copy_area;
+  int32 property_count;
+  file_reference<level_property>[property_count] properties;
+  int32 vanilla_data_count;
+  file_reference<level_property>[vanilla_data_count] vanilla_data;
+  int32 dlc1_data_count;
+  file_reference<level_property>[dlc1_data_count] dlc1_data;
+  file_reference<T> graph;
+}

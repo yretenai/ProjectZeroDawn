@@ -1,0 +1,5 @@
+
+Decima::small_hashed_string {
+  int16 size;
+  string text;
+}

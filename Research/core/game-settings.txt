@@ -1,0 +1,13 @@
+
+File Type = 0x2A3C7DB790214B9C
+
+Decima::game_settings {
+  int32 property_count;
+  file_reference<game_property>[property_count] properties;
+  file_reference<T> default_system_assets;
+  file_reference<T> default_application_assets;
+  int32 game_setting_count;
+  file_reference<T>[game_setting_count] game_settings;
+  int32 telemetry_setting_count;
+  file_reference<T>[telemetry_setting_count] telemetry_settings;
+}

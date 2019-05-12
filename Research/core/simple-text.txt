@@ -1,0 +1,26 @@
+
+File Type = 0xB89A596B420BB2E2
+
+Decima::simple_text {
+  small_hashed_string english;
+  small_hashed_string french;
+  small_hashed_string spanish;
+  small_hashed_string german;
+  small_hashed_string italian;
+  small_hashed_string dutch;
+  small_hashed_string portuguese;
+  small_hashed_string chinese_traditional;
+  small_hashed_string korean;
+  small_hashed_string russian;
+  small_hashed_string polish;
+  small_hashed_string norwegian;
+  small_hashed_string finnish;
+  small_hashed_string swedish;
+  small_hashed_string danish;
+  small_hashed_string japanese;
+  small_hashed_string spanish_mexico;
+  small_hashed_string portuguese_brazil;
+  small_hashed_string unknown;
+  small_hashed_string arabic;
+  small_hashed_string chinese_simplified;
+}

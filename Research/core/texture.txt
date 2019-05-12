@@ -1,0 +1,7 @@
+
+File Type = 0x5D5C08775CFEADF8
+
+Decima::texture {
+  hashed_string name;
+  texture_base texture_data;
+}

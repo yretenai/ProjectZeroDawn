@@ -1,0 +1,6 @@
+
+Decima::file_reference<level_data> {
+  core_load_method load_method;
+  [optional] guid checksum; // only when load_method is not 0
+  [optional] hashed_string ref_file; // only when load_method >= 2
+}

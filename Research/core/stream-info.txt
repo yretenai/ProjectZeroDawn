@@ -1,0 +1,8 @@
+
+Decima::stream_info {
+  unhashed_string name;
+  int32 offset;
+  int32 unknown1;
+  int32 size;
+  int32 unknown2;
+}

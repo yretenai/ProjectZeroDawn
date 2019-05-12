@@ -1,0 +1,29 @@
+Constants:
+    FILE_MAGIC_BYTES = 0x20304050
+    HASHER = murmurhash3_x64_128
+    HASH_SALT = 0x2A
+
+Header:
+    uint32 magic_bytes;    // verify with FILE_MAGIC_BYTES
+    int32 load_priority;   // 0x3D for game data, 0x00 for patch files 
+    int64 sz_compressed;   // > sz_uncompressed
+    int64 sz_uncompressed; // < sz_compressed
+    int64 record_table_sz; // no. of records (below)
+    int32 block_table_sz;  // no. of blocks (below)
+    int32 block_sz;        // maximum buffer size
+    
+Record * record_table_sz @ offset 0x28
+    int32 file_id;   // load order
+    int32 unknown_1; // matches unknown_2 unless it's the first entry in which case it's 0
+    int64 hash;      // first 8 bytes of murmurhash3_x64_128, seed 42
+    int64 offset;    // offset in uncompressed blob
+    int32 size;      // size in uncompressed blob
+    int32 unknown_2; // 0x1E9 in some files
+    
+Block * block_table_sz @ offset 0x28 + record_table_sz * 0x20
+    int64 chunk_offset; // offset in decompressed data
+    int32 chunk_size;   // decompressed size
+    int32 unknown_1;    // usually 0, but is -1 if record[unknown_2] is not 0
+    int64 offset;        // offset in bin file
+    int32 size;            // compressed size
+    int32 unknown_2;    // matches unknown_1 most of the time

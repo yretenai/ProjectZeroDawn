@@ -1,0 +1,8 @@
+
+Decima::core_load_method : byte {
+  NotPresent = 0x0,
+  Embedded = 0x1,
+  ImmediateCoreFile = 0x2,
+  CoreFile = 0x3,
+  WorkOnly = 0x5,
+}
